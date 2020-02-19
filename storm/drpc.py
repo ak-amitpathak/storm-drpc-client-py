@@ -2,8 +2,8 @@ from thrift.transport import TSocket
 from thrift.transport import TTransport
 from thrift.protocol import TBinaryProtocol
 from repoze.lru import lru_cache
-from DistributedRPC import Client
-from sasl_client_transport import SaslClientTransport
+from storm.DistributedRPC import Client
+from storm.sasl_client_transport import SaslClientTransport
 import json
 
 STORM_SASL_SERVICE = 'storm_thrift_server'
